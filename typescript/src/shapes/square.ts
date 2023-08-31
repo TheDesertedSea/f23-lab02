@@ -1,10 +1,9 @@
-function square(sideLen: number): Shape {
+function newSquare(sideLen: number): Shape {
     return {
-        sideLen,
         computeArea: function (): number {
             return sideLen * sideLen
         }
     }
 }
 
-export { square }
+export { newSquare }
